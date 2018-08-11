@@ -8,8 +8,8 @@
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e",
-		"test:once": "ng test --watch=false",
-		"ci": "npm run lint && npm run test && npm run e2e"
+		"test_once": "ng test --watch=false",
+		"ci": "npm run lint && npm run test_once && npm run e2e"
 	},
 	"private": true,
 	"dependencies": {
